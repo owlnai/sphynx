@@ -1,0 +1,29 @@
+{
+  "name": "discord-bonk",
+  "private": true,
+  "version": "1.1.0",
+  "description": "A Discord bot that detects and acts upon phising attempt",
+  "module": "./dist/index.mjs",
+  "scripts": {
+    "start": "node dist/index.mjs",
+    "dev": "unbuild && node dist/index.mjs",
+    "deploy": "node dist/slash-commands.mjs",
+    "build": "unbuild"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^1.0.0",
+    "c12": "^0.2.8",
+    "discord-api-types": "^0.36.2",
+    "discord-osiris": "^2.0.2",
+    "discord.js": "^14.0.2",
+    "sequelize": "^6.21.3",
+    "sqlite3": "^5.0.9",
+    "stop-discord-phishing": "^0.2.0"
+  },
+  "devDependencies": {
+    "unbuild": "^0.7.4"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
