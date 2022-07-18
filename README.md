@@ -1,5 +1,5 @@
 # 𓂀 SPHINX
-SPHINX is a Discord bot that checks every message for possible phishing links (e.g fake Nitro).
+SPHYNX is a Discord bot that checks every message for possible phishing links (e.g fake Nitro).
 
 It uses a frequently updated [https://github.com/nikolaischunk/discord-phishing-links JSON list] with +14k domains, as well as its own module (`discord-osiris`) that features RegExp patterns to catch even more links.
 
