@@ -18,7 +18,6 @@ export default async (message: Message) => {
     await Guild.findOne({
       where: { guildID: message.guild.id },
     })
-  console.table([shouldDelete, shouldKick, logChannelID, roleID])
 
   if (shouldDelete) {
     await handlers.deleteMessage(message)

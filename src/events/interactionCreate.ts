@@ -106,7 +106,6 @@ export default async (interaction: Interaction) => {
           newConfig.roleID = id
         }
       }
-      console.log(newConfig)
       const affectedRows = await Guild.update(newConfig, {
         where: { guildID: interaction.guild.id },
       })
