@@ -1,7 +1,7 @@
 # 𓂀 SPHINX
 SPHINX is a Discord bot that checks every message for possible phishing links (e.g fake Nitro).
 
-It uses a frequently updated [https://github.com/nikolaischunk/discord-phishing-links JSON list] with +14k domains, as well as its own module (`discord-osiris`) that features RegExp patterns to catch even more links.
+It uses a frequently updated [JSON list](https://github.com/nikolaischunk/discord-phishing-links) with +14k domains, as well as its own module (`discord-osiris`) that features RegExp patterns to catch even more links.
 
 ## Features
 - Built with Typescript and Discord.js
@@ -44,9 +44,9 @@ This might happen for the following reasons:
 ### Where do I host it?
 You can use any VPS as long as it lets you use Node.js.
 
-## Is the bot dangerous?
+### Is the bot dangerous?
 By default, it doesn't do _anything_, unless you specify an action using the `/config` slash command. You could even invite the bot with no permissions just to log the infraction to a channel.
-## Can it ban users?
+### Can it ban users?
 No. By design, SPHINX will kick users instead of banning them. In general, users with compromised accounts won't return to the server until they take back the access to their account. So banning them does more harm than good. If you think otherwise, feel free to fork.
 
 ### I still haven't solved my issue
