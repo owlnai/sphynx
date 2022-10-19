@@ -1,3 +1,6 @@
+> **Warning**
+> Package has been deprecated. Please, use built-in [AutoMod](https://support.discord.com/hc/en-us/articles/4421269296535-AutoMod-FAQ)
+
 # 𓂀 SPHYNX
 SPHYNX is a Discord bot that checks every message for possible phishing links (e.g fake Nitro).
 
